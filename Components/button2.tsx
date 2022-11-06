@@ -6,8 +6,12 @@ const Button2 = () => {
         <div>
 
         <button onClick={()=>setcounter(counter+1)}> Plus Counter </button><br/>
+
         {counter} <br/>
-        <button onClick={()=>setcounter(counter-1)}> Minus Counter </button>
+
+        <button onClick={()=>setcounter(counter-1)}> Minus Counter </button> <br/>
+
+        {counter>=10? "Great":"Not Great"}
         </div>
     )
 }

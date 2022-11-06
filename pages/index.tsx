@@ -9,6 +9,7 @@ import Buttons from '../Components/buttons'
 import { useState } from 'react'
 import Clickcounter from '../Components/clickcounter'
 import Button2 from '../Components/button2'
+import Studentlist from '../Components/studentlist'
 
 
 
@@ -16,8 +17,8 @@ const Home: NextPage = () => {
   return (
     
    <div>
-    
-    <Button2/>
+    <Studentlist/>
+   
    </div>
   )
 }
